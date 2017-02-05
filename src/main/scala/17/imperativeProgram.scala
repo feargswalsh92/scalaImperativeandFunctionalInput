@@ -1,9 +1,12 @@
 package cs372.com
+//import main.scala
 
-import scala.collection
+//import scala.collection_
 
-class ImperativeProgram {
-    def echoInputData(it: Iterator[String]) = {
+class imperativeProgram {
 
+var lines = List[String]()
+    def constructList(input: Iterator[String]): List[String] = {
+      lines      
     }
-}
+  }
