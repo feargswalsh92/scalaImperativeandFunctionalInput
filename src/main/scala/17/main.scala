@@ -1,18 +1,20 @@
-package cs372.p1
-
+package cs372.com
 import scala.io.Source
-import java.util
+
 
 
 object Main extends App {
-  //val imp = new imperativeProgram()
+  val imp = new imperativeProgram()
 
   val file = "input.txt"
+
   for (line <- Source.fromFile(file).getLines) {
-  println(line)
+//  println(line)
   }
 
-  
+
+
+
   //val lines = scala.io("input.txt").stdin.getLines
   //println(lines)
 //  val words = lines.flatMap(_.split("\\W+"))
