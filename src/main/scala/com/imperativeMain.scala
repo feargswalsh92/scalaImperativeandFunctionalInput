@@ -10,7 +10,7 @@ object imperativeMain extends App {
   println(lines)
   println(words)
 
-  val list = imp.constructList(words)
+  var list = imp.constructList(words)
   println(list)
 
 

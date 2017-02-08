@@ -105,3 +105,54 @@
 01:27:37.713 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
 01:27:37.714 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
 01:27:42.727 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 4 files
+10:47:56.792 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:47:56.798 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:47:56.803 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:47:56.804 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:01.790 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 4 files
+10:48:06.715 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:06.719 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:06.719 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:06.719 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:11.730 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 4 files
+10:48:46.715 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:46.719 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:46.719 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:46.719 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:51.730 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 4 files
+10:48:56.714 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:56.718 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:56.719 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:48:56.719 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+10:49:01.738 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 4 files
+11:10:56.761 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:10:56.763 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:11:01.772 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 2 files
+11:11:06.755 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:11:06.756 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:11:11.770 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 2 files
+11:30:36.809 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:30:36.813 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:30:37.402 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:30:37.404 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:30:37.404 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:30:37.405 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:30:37.405 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:30:42.422 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 7 files
+11:36:56.814 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:36:56.816 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+11:37:01.823 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 2 files
+12:27:37.143 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+12:27:37.146 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+12:27:42.168 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 2 files
+12:27:46.908 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+12:27:46.908 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+12:27:51.924 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 2 files
+13:27:37.051 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+13:27:37.056 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+13:27:42.062 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 2 files
+13:28:27.625 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+13:28:27.626 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+13:28:27.627 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+13:28:27.631 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+13:28:32.642 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 4 files

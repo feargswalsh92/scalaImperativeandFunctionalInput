@@ -4,11 +4,11 @@ import scala.io.Source, scala.io.Source._
 //import main.scala
 
 import scala.collection._
-
+import scala.collection.mutable.{ ArrayBuffer }
 
 
 class imperativeProgram {
-
+val mutableArray = scala.collection.mutable.ArrayBuffer.empty[Int]
 var wordsList = List[String]()
 //@param lines from Main
 //@param words  "     "
@@ -16,9 +16,19 @@ var wordsList = List[String]()
 
 
 def constructList(words: Iterator[String]): List[String] = {
-  for (word <- words) { //possibly add toList
-  word :: wordsList
+  for (word <- words.toList) { //possibly add toList
+  wordsList ::= word
   }
-  wordsList
+  wordsList //TODO Printing list in wrong format (sort)
+  }
+
+
+
+def constructArrayBuffer(wordsList: List[String]): mutable.ArrayBuffer[Int] = {
+    // for ( <- lines) {
+    //  mutableArray
+    // }
+
+    mutableArray
   }
 }
