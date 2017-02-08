@@ -16,10 +16,11 @@ var wordsList = List[String]()
 
 
 def constructList(words: Iterator[String]): List[String] = {
-  for (word <- words.toList) { //possibly add toList
+  for (word <- words.toList) {
   wordsList ::= word
-  }
-  wordsList //TODO Printing list in wrong format (sort)
+    }
+  wordsList
+   //TODO Printing list in wrong format (sort)
   }
 
 
