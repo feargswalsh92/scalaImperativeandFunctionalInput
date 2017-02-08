@@ -8,7 +8,7 @@ import scala.collection.mutable.{ ArrayBuffer }
 
 
 class imperativeProgram {
-val mutableArray = scala.collection.mutable.ArrayBuffer.empty[Int]
+val mutableArray = scala.collection.mutable.ArrayBuffer.empty[String]
 var wordsList = List[String]()
 //@param lines from Main
 //@param words  "     "
@@ -25,11 +25,10 @@ def constructList(words: Iterator[String]): List[String] = {
 
 
 
-def constructArrayBuffer(wordsList: List[String]): mutable.ArrayBuffer[Int] = {
-    // for ( <- lines) {
-    //  mutableArray
-    // }
-
+def constructArrayBuffer(wordsList: List[String]): mutable.ArrayBuffer[String] = {
+   for (word <- wordsList) {
+     mutableArray += word
+   }
     mutableArray
   }
 }

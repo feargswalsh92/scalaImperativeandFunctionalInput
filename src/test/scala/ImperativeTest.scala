@@ -12,14 +12,11 @@ class imperativeTest extends FunSuite with BeforeAndAfterEach {
 
     }
 
-    // test("printWindowSize") {
-    //
-    //
-    // }
+
 
     test("testConstructArrayBuffer") {
       val inputList = List("5","7","8","4")
-      val expectedBuffer = scala.collection.mutable.ArrayBuffer(5,7,8,4)
+      val expectedBuffer = scala.collection.mutable.ArrayBuffer("5","7","8","4")
 
       assert((new imperativeProgram).constructArrayBuffer(inputList) == expectedBuffer)
       //tst to check if array has been constructed properly
