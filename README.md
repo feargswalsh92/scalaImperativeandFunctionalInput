@@ -1,53 +1,8 @@
-[![Build Status](https://travis-ci.org/LoyolaChicagoCode/processtree-scala.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/processtree-scala)
-[![Coverage Status](https://coveralls.io/repos/LoyolaChicagoCode/processtree-scala/badge.svg?branch=master)](https://coveralls.io/r/LoyolaChicagoCode/processtree-scala?branch=master)
+### README
+Imperative version was working before I started trying to implement a second main to incorporate the functional, kept recieving a really frustrating error pertaining to the common object not being found.
 
-# Learning Objectives
+This was the line the user could input  to see the input printed before everything started breaking, I posted a picture on Slack of it working earlier.
 
-- exploration of a standard problem in Scala:
-  edge reversal algorithm:
-  converting a representation of a tree as a flat sequence of child-to-parent
-  edges to one where each parent maps to a sequence of children
-  - OO/imperative, with mutable data structures
-  - functional, with immutable data structures
-- software design principles
-  - [DRY](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-  - [testcase superclass](http://xunitpatterns.com/Testcase%20Superclass.html)
-- Scala programming techniques
-  - console input
-  - [stackable traits](http://www.artima.com/scalazine/articles/stackable_trait_pattern.html)
-  - unit testing using [ScalaTest](http://www.scalatest.org)
-  - automated performance testing/microbenchmarking using [ScalaMeter](https://scalameter.github.io)
+sbt "runMain scala.imperative.imperativeMain" < inputData/input.txt
 
-# Overview
-
-This is a Scala-based solution to the
-[process tree homework assignment](http://osdi.etl.luc.edu/homework/home-lab-assignment-1)
-from the course
-[COMP 374/410: Introduction to Operating Systems](http://osdi.etl.luc.edu).
-
-# Usage
-
-To run the tests:
-
-    $ sbt test
-
-To run the main methods:
-
-    $ ps -ef | sbt "runMain edu.luc.etl.osdi.processtree.scala.mutable.Main"
-    $ ps -ef | sbt "runMain edu.luc.etl.osdi.processtree.scala.groupby.Main"
-    $ ps -ef | sbt "runMain edu.luc.etl.osdi.processtree.scala.fold.Main"
-
-To generate larger data sets for testing:
-
-    $ sbt "test:runMain edu.luc.etl.osdi.processtree.scala.fakeps.Main 100000" > data.txt
-
-To run the benchmarks:
-
-    $ sbt "test:runMain edu.luc.etl.osdi.processtree.scala.fakeps.Benchmark"
-    $ sbt "test:runMain edu.luc.etl.osdi.processtree.scala.mutable.Benchmark"
-    $ sbt "test:runMain edu.luc.etl.osdi.processtree.scala.groupby.Benchmark"
-    $ sbt "test:runMain edu.luc.etl.osdi.processtree.scala.fold.Benchmark"
-
-On Windows, if you installed [Git](http://git-scm.com/) with the recommended
-third option, *Use Git and optional Unix tools from the Windows Command Prompt*,
-then you will have a `ps` command available.
+I'm going to continue working on this as a learning tool, I think I'm really close.
