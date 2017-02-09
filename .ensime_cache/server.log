@@ -187,3 +187,11 @@
 15:53:47.493 DEBUG None o.e.i.SourceResolver - updating sources
 16:14:47.733 DEBUG None o.e.i.SourceResolver - updating sources
 16:14:47.797 DEBUG None o.e.i.SourceResolver - updating sources
+17:05:37.605 DEBUG None o.e.i.SourceResolver - updating sources
+17:05:57.875 DEBUG None o.e.i.SourceResolver - updating sources
+17:09:28.627 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+17:09:28.635 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+17:09:28.636 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+17:09:33.629 DEBUG akka://ENSIME/user/ClassfileIndexer o.e.i.IndexingQueueActor - Indexing 3 files
+17:09:38.666 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
+17:09:38.791 DEBUG akka://ENSIME/user/ensime-main/project o.e.c.Project - received handled message AskReTypecheck in state awaitingConnectionInfoReq
