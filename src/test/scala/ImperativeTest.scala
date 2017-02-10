@@ -1,4 +1,4 @@
-package scala.com
+package scala.main
 import org.scalatest.{BeforeAndAfterEach, FunSuite }
 import scala.io.Source._
 

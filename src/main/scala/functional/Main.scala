@@ -1,12 +1,20 @@
-package src.scala
+package src.main.scala
 package functional
 import scala.collection._
 import common.{Process,ProcessTree}
 
-object Main extends common.Main 
+object Main extends common.Main with functionalProgram
 
-trait functionalProgram extends common.functionalTree {
-println("Im in the functional")
+trait functionalProgram extends common.TreeBuilder {
+
+  def buildTree(processes: Iterator[Process]): ProcessTree =  {
+
+    println("I'm in the buildTree:")
+
+    ???
+
+  }
+
 
 }
 
