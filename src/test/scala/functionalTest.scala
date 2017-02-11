@@ -1,4 +1,4 @@
-package scala.functional
+package src.main.scala.functional.Main
 import org.scalatest.{BeforeAndAfterEach, FunSuite }
 import scala.io.Source._
 
@@ -15,7 +15,7 @@ class functionalTest extends FunSuite with BeforeAndAfterEach {
 //  assert((new functionalProgram).constructList(inputData).sorted == expectedList.sorted)
 //
 //   }
-//
+////the
 //
 //
 //   test("testConstructArrayBuffer") {
