@@ -10,14 +10,16 @@ trait Main extends App with IO with TreeBuilder{
   //val args = stdin.args pseudocode of how I would have obtained input
   //args.parseLine to split the input into window size and increment amount
   println("in main")
+
   val parse = parseLine(header)
+
   val processes = lines map parse
+
   println(processes)
-  println(lines)
 
   println(header)
 
-//  val processTree = buildTree(processes)
+  val processTree = buildTree(processes)
 
 
   //val processes = lines map
