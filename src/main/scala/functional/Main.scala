@@ -11,15 +11,15 @@ trait functionalProgram extends common.TreeBuilder {
 
     println("I'm in the buildTree:")
 
-      val (sum, count) = processes.foldLeft {
-        (0, 0)
-      } { case ((sum, count), next) =>
-        (sum + next.length, count + 1)
-      }
-      val result = sum.toFloat / count
-      result
-    }
-
+    //   val (sum, count) = processes.foldLeft {
+    //     (0, 0)
+    //   } { case ((sum, count), next) =>
+    //     (sum + next.length, count + 1)
+    //   }
+    //   val result = sum.toFloat / count
+    //   result
+    // }
+    ???
       //  (m,p) =>
       // val iPpid = p._2
       //
@@ -29,7 +29,7 @@ trait functionalProgram extends common.TreeBuilder {
 
 
 
-
+}
 
 }
 
