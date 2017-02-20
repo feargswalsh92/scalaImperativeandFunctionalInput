@@ -1,25 +1,26 @@
 package src.main.scala
 package functional
 import scala.collection._
-import common.{Process,ProcessTree}
+//import common.{Process,ProcessTree}
 
 object Main extends common.Main with functionalProgram
 
 trait functionalProgram extends common.TreeBuilder {
 
-  def buildTree(processes: Iterator[Process]): ProcessTree=  {
+  def generateStats() { //add  map iterator as input type
+  //(processes: Iterator[Process]) {
 
     println("I'm in the buildTree:")
-
-      val (sum, count) = processes.foldLeft {
-        (0, 0)
-      } { case ((sum, count), next) =>
-        (sum + next.length, count + 1)
-      }
-      val result = sum.toFloat / count
-      result
-    }
-
+    //println(args(0))
+    //   val (sum, count) = processes.foldLeft {
+    //     (0, 0)
+    //   } { case ((sum, count), next) =>
+    //     (sum + next.length, count + 1)
+    //   }
+    //   val result = sum.toFloat / count
+    //   result
+    // }
+    ???
       //  (m,p) =>
       // val iPpid = p._2
       //
@@ -29,7 +30,7 @@ trait functionalProgram extends common.TreeBuilder {
 
 
 
-
+}
 
 }
 
