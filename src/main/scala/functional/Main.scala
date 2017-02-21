@@ -7,9 +7,12 @@ object Main extends common.Main with functionalProgram
 
 trait functionalProgram extends common.TreeBuilder {
 
+  def main (args: Array[String])
+    //println(args(0))  
+
   def generateStats() { //add  map iterator as input type
   //(processes: Iterator[Process]) {
-
+    //println(args)
     println("I'm in the buildTree:")
     //println(args(0))
     //   val (sum, count) = processes.foldLeft {

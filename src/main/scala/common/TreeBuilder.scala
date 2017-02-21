@@ -24,5 +24,6 @@ def generateStats()
 
  // imperative verbose
 //functional foldleft???
+def main (args: Array[String])
 
 }

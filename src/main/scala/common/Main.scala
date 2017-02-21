@@ -1,23 +1,33 @@
 package src.main.scala.common
 import scala.collection.mutable. {Map,SynchronizedMap,HashMap}
-trait Main extends App with TreeBuilder{
+trait Main {    // with TreeBuilder {
 
-  val lines = scala.io.Source.stdin.getLines
 
-  val words = lines.flatMap(_.split("\\W+"))
+      // val lines = scala.io.Source.stdin.getLines
+      //
 
-  val header = lines.next()
-  args.foreach(println)
+
+
+      //println("Hello, " + args(0) + "!")
+
+      //println(args.length)
+      //args.foreach(x => println(args))
+
+      // val words = lines.flatMap(_.split("\\W+"))
+      //
+      // val header = lines.next()
+
+      //args.foreach(println)
   //val numbers = words.map(String -> Int)
   //val numbers = scala.collection.Map[String,Int]()
-  println("in main")
-  println(args)
+      println("in main")
+  }
   //val windowSize = scala.io.Source.stdin.args
 
 
 //  println(processes)
 
-  println(header)
+     //println(header)
 
 //  val processTree = AnyObject
 
@@ -36,4 +46,4 @@ trait Main extends App with TreeBuilder{
   //print(func)
 
   //val parse = parseLine(header)
-}//with IO with treebuilder
+//with IO with treebuilder
