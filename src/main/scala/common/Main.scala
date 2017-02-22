@@ -1,9 +1,19 @@
 package src.main.scala.common
 import scala.collection.mutable. {Map,SynchronizedMap,HashMap}
-trait Main {    // with TreeBuilder {
+trait Main extends TreeBuilder {
+
+  def main (args: Array[String]) {
+      println(args(0))
+      val inputArgs = args.foreach(println)
+      val argsInts = args.map(_.toInt)
+      argsInts.foreach(println)
+  }
 
 
-      // val lines = scala.io.Source.stdin.getLines
+
+    //val args = Array("5","7")
+
+  val lines = scala.io.Source.stdin.getLines
       //
 
 
