@@ -7,6 +7,13 @@ trait Main extends TreeBuilder {
       val inputArgs = args.foreach(println)
       val argsInts = args.map(_.toInt)
       argsInts.foreach(println)
+      val increment = args(0)
+      val windowSizes = args(1)
+      val lines = scala.io.Source.stdin.getLines
+      val words = lines.flatMap(_.split("\\W+"))
+      val numbers = words.map(_.toInt)
+      println(numbers)
+
   }
 
 

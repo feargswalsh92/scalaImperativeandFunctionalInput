@@ -1,4 +1,4 @@
-package src.main.scala.functional.Main
+package src.main.scala
 import org.scalatest.{BeforeAndAfterEach, FunSuite }
 import scala.io.Source._
 
@@ -8,13 +8,13 @@ import scala.io.Source._
 
 class functionalTest extends FunSuite with BeforeAndAfterEach {
 
-test("testInputList") {
-
- val inputData = fromFile("inputData/input.txt").getLines
- val expectedList = List("3", "4", "5", "7", "8", "10", "45")
- assert((new functionalProgram).constructList(inputData).sorted == expectedList.sorted)
-
-  }
+// test("testInputList") {
+//
+//  val inputData = fromFile("inputData/input.txt").getLines
+//  val expectedList = List("3", "4", "5", "7", "8", "10", "45")
+//  assert((new functionalProgram).constructList(inputData).sorted == expectedList.sorted)
+//
+//   }
 ////the
 //
 //
