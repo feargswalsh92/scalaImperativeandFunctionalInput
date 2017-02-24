@@ -15,15 +15,19 @@ import scala.io.Source._
   //   }
 
   test("testGenerateTest") {
-    val inputData = fromFile("inputData/input.txt").getLines
-    val expectedOutput = (3,4,5,6,7,8,10,45)
-    var listeners: List[generateStats => ()] = Nil
-    def listen(listener: generateStats => ()) {
-       listeners ::= listener
-       }
-    def notify(ev: generateStats) for (l <- listeners) l(ev)
-
+    def updateStats() {
+      ???
+    }
   }
+  // val inputData = fromFile("inputData/input.txt").getLines
+  // val expectedOutput = (3,4,5,6,7,8,10,45)
+  // var listeners: List[generateStats => () => Nil]
+  //   def listen(listener: generateStats => ()){
+  //       listeners ::= listener
+  //       }
+  //   def notify(ev: generateStats) for (l <- listeners) l(ev)
+  //
+  // }
 }
 
 
