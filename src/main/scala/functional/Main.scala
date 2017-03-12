@@ -10,7 +10,7 @@ trait functionalProgram extends common.TreeBuilder {
   
   //   ???//
 
-  def generateStats() {
+  def generateStats(numbers:Iterator[Int],windowSizes:Int) {
 
 
   //add  map iterator as input type
