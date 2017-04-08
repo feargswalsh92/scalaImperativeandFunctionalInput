@@ -1,7 +1,13 @@
 package src.main.scala.common
 
-trait TreeBuilder {
-//rename trait
+trait statsBuilder {
+
+  def generateStats(numbers: Iterator[Int], windowSizes:Int)
+
+
+
+}
+  //rename trait
 //SOC: why should the method that generates the stats deal with the conversion
 //of strings to numbers.
 //args come in as Strings, windowsizes as numbers
@@ -18,7 +24,7 @@ trait TreeBuilder {
 //tuples(fixed), sequence(0 or more), optional
 //at the top level it's fixed each stat is fixed if its at a level where the window size hasn't been reached yet it's an optional type(none ??? and some(there is data))
 
-def generateStats()
+
 //numbers: Map[String,Int])
   //windowSizes),NO return type:
 
@@ -26,4 +32,4 @@ def generateStats()
 //functional foldleft???
 //def main (args: Array[String])
 
-}
+

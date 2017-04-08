@@ -5,7 +5,7 @@ import scala.collection._
 
 object Main extends common.Main with functionalProgram
 
-trait functionalProgram extends common.TreeBuilder {
+trait functionalProgram extends common.statsBuilder {
 
   
   //   ???//

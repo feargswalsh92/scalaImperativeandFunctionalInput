@@ -1,8 +1,8 @@
 package src.main.scala.common
 import scala.collection.mutable. {Map,SynchronizedMap,HashMap}
-trait Main extends TreeBuilder {
+trait Main extends App with statsBuilder {
 
-  def main (args: Array[String]) {
+  override def main (args: Array[String]) {
       println(args(0))
       val inputArgs = args.foreach(println)
       val argsInts = args.map(_.toInt)
