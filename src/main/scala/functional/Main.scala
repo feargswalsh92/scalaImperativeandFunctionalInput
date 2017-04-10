@@ -1,7 +1,7 @@
 package src.main.scala
 package functional
 import scala.collection._
-//import common.{Process,ProcessTree}
+import common.{Process,ProcessTree}
 
 object Main extends common.Main with functionalProgram
 
@@ -10,14 +10,14 @@ trait functionalProgram extends common.statsBuilder {
   
   //   ???//
 
-  def generateStats() {
+  def generateStats(numbers: Iterator[Int], windowSizes:Int) {
 
+    println ("I'm in the buildTree:")
+  }
 
-  //add  map iterator as input type
-  //(processes: Iterator[Process]) {
+    //add  map iterator as input type
+    //(processes: Iterator[Process]) {
     //println(args)
-
-    println("I'm in the buildTree:")
     //println(args(0))
     //   val (sum, count) = processes.foldLeft {
     //     (0, 0)
@@ -27,7 +27,7 @@ trait functionalProgram extends common.statsBuilder {
     //   val result = sum.toFloat / count
     //   result
     // }
-    ???
+
       //  (m,p) =>
       // val iPpid = p._2
       //
@@ -37,7 +37,7 @@ trait functionalProgram extends common.statsBuilder {
 
 
 
-}
+
 
 }
 

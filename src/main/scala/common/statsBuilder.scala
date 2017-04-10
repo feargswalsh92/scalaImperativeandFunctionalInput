@@ -4,8 +4,6 @@ trait statsBuilder {
 
   def generateStats(numbers: Iterator[Int], windowSizes:Int)
 
-
-
 }
   //rename trait
 //SOC: why should the method that generates the stats deal with the conversion

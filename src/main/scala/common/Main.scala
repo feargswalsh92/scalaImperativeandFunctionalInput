@@ -1,22 +1,28 @@
 package src.main.scala.common
+
+import src.main.scala.Imperative.ImperativeProgram
+
 //import scala.collection.mutable. {Map,SynchronizedMap,HashMap}
-object Main extends App with statsBuilder {
+trait Main extends App with statsBuilder {
 
   override def main(args: Array[String]) {
-      println(args(0))
-      val inputArgs = args.foreach(println)
-      val argsInts = args.map(_.toInt)
-      argsInts.foreach(println)
-      val increment = args(0)
-      val windowSizes = args(1)
-      val lines = scala.io.Source.stdin.getLines
-      val words = lines.flatMap(_.split("\\W+"))
-      val numbers = words.map(_.toInt)
-      println(numbers)
+    println(args(0))
+    val inputArgs = args.foreach(println)
+    val argsInts = args.map(_.toInt)
+    argsInts.foreach(println)
+    val increment = args(0)
+    val windowSizes = args(1)
+    val lines = scala.io.Source.stdin.getLines
+    val words = lines.flatMap(_.split("\\W+"))
+    val numbers = words.map(_.toInt)
+    println(numbers)
+    object imperative extends Main with ImperativeProgram
+    imperative.generateStats(numbers,windowSizes)
 
   }
 
 
+}
 
     //val args = Array("5","7")
 
@@ -37,8 +43,10 @@ object Main extends App with statsBuilder {
       //args.foreach(println)
   //val numbers = words.map(String -> Int)
   //val numbers = scala.collection.Map[String,Int]()
-      println("in main")
-  }
+     // println("in main")
+
+//  override def generateStats(numbers: Iterator[Int], windowSizes: Int): Unit = ???
+
   //val windowSize = scala.io.Source.stdin.args
 
 

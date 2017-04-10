@@ -4,7 +4,7 @@ Imperative version was working before I started trying to implement a second mai
 This was the line the user could input  to see the input printed before everything started breaking, I posted a picture on Slack of it working earlier.
 
 ##To run imperative
-sbt "runMain scala.com.imperativeMain" <   inputData/input.txt 
+
 
 ## To run functional
 
