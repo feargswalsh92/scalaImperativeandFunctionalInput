@@ -12,7 +12,7 @@ trait functionalProgram extends common.statsBuilder {
 
   def generateStats(numbers: Iterator[Int], windowSizes:Int) {
 
-    println ("I'm in the buildTree:")
+    println ("I'm in the functional genrateStats")
   }
 
     //add  map iterator as input type

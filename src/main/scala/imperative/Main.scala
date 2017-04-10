@@ -2,6 +2,7 @@ package src.main.scala
 package Imperative
 import scala.collection._
 
+
 import common.{ Process,ProcessTree}
 
 object Main extends common.Main with ImperativeProgram
@@ -9,6 +10,7 @@ object Main extends common.Main with ImperativeProgram
 
   //  override def generateStats(): Unit = ???
   //}
+
 
   trait ImperativeProgram extends common.statsBuilder {
 
@@ -19,11 +21,20 @@ object Main extends common.Main with ImperativeProgram
 
     def generateStats(numbers: Iterator[Int], windowSizes: Int) {
 
-      print("in imperative generate stats")
-      numbers.foreach(println)
+      print("in imperative generate stats /n")
+      var count = 0
+      numbers.foreach { i=>
 
+        count += 1
+        //println(i)
+        println(s"$i $count")
+
+       // var imin = min(i)
+
+      }
 
       //    while (numbers.hasNext)
+
       //    //updateStats(numbers) //call to update stats goes here
       //
       //      println(numbers.next)
@@ -35,7 +46,7 @@ object Main extends common.Main with ImperativeProgram
 
 
 
-  //import scala.io.Source, scala.io.Source._
+//import scala.io.Source, scala.io.Source._
 
   //import main.scala
   //import scala.collection_
