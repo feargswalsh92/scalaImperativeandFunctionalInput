@@ -12,12 +12,14 @@ trait Main extends App with statsBuilder {
     argsInts.foreach(println)
     val increment = args(0)
     val windowSizes = args(1)
+    val windowSizesInt = windowSizes.toInt
+    println("window sizes = " + windowSizes)
     val lines = scala.io.Source.stdin.getLines
     val words = lines.flatMap(_.split("\\W+"))
     val numbers = words.map(_.toInt)
     println(numbers)
     object imperative extends Main with ImperativeProgram
-    imperative.generateStats(numbers,windowSizes)
+    imperative.generateStats(numbers,windowSizesInt)
 
   }
 
