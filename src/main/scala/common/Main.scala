@@ -1,8 +1,8 @@
 package src.main.scala.common
-import scala.collection.mutable. {Map,SynchronizedMap,HashMap}
-trait Main extends App with statsBuilder {
+//import scala.collection.mutable. {Map,SynchronizedMap,HashMap}
+object Main extends App with statsBuilder {
 
-  override def main (args: Array[String]) {
+  override def main(args: Array[String]) {
       println(args(0))
       val inputArgs = args.foreach(println)
       val argsInts = args.map(_.toInt)
@@ -20,7 +20,7 @@ trait Main extends App with statsBuilder {
 
     //val args = Array("5","7")
 
-  val lines = scala.io.Source.stdin.getLines
+ // val lines = scala.io.Source.stdin.getLines
       //
 
 
