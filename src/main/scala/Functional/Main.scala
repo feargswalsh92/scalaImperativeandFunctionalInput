@@ -1,5 +1,5 @@
 package src.main.scala
-package functional
+package Functional
 import scala.collection._
 import common.{Process,ProcessTree}
 

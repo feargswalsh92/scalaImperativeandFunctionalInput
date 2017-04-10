@@ -19,6 +19,9 @@ object Main extends common.Main with ImperativeProgram
 
     def generateStats(numbers: Iterator[Int], windowSizes: Int) {
 
+      print("in imperative generate stats")
+      numbers.foreach(println)
+
 
       //    while (numbers.hasNext)
       //    //updateStats(numbers) //call to update stats goes here
