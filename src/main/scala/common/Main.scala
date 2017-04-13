@@ -1,11 +1,12 @@
 package src.main.scala.common
 
+import src.main.scala.Functional.functionalProgram
 import src.main.scala.Imperative.ImperativeProgram
 
 //import scala.collection.mutable. {Map,SynchronizedMap,HashMap}
-trait Main extends App with statsBuilder {
+trait Main extends statsBuilder {
 
-  override def main(args: Array[String]) {
+  def main(args: Array[String]) {
     println(args(0))
     val inputArgs = args.foreach(println)
     val argsInts = args.map(_.toInt)
@@ -18,13 +19,18 @@ trait Main extends App with statsBuilder {
     val words = lines.flatMap(_.split("\\W+"))
     val numbers = words.map(_.toInt)
     println(numbers)
-    object imperative extends Main with ImperativeProgram
-    imperative.generateStats(numbers,windowSizesInt)
-
+    generateStats(numbers,windowSizesInt)
+//    object imperative extends Main with ImperativeProgram
+//    imperative.generateStats(numbers,windowSizesInt)
+//    object functional extends Main with functionalProgram
+//    imperative.generateStats(numbers,windowSizesInt)
   }
 
 
 }
+
+
+
 
     //val args = Array("5","7")
 
