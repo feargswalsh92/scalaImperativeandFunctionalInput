@@ -1,7 +1,9 @@
 package src.main.scala
 package Functional
 import scala.collection._
-import common.{Process,ProcessTree}
+import common.{Process, ProcessTree}
+
+import scala.collection.mutable.ArrayBuffer
 
 object Main extends common.Main with functionalProgram
 
@@ -11,11 +13,16 @@ trait functionalProgram extends common.statsBuilder {
   //   ???//
 
   def generateStats(numbers: Iterator[Int], windowSizes:Int) {
+    val itList = numbers.toList
+    itList.foldLeft()
+   // println ("I'm in the functional genrateStats")
 
-    println ("I'm in the functional genrateStats")
   }
 
-    //add  map iterator as input type
+//  def constructMap(itList:List[Int]): immutable.ListMap[Int,Int] = {
+//    val lengthOccurences = it
+//  }
+//    //add  map iterator as input type
     //(processes: Iterator[Process]) {
     //println(args)
     //println(args(0))
